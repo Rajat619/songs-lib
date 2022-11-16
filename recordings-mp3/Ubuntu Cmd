@@ -1,0 +1,30 @@
+1  sudo apt-get update
+    2  sudp apt-get install python
+    3  sudo apt-get install python
+    4  python
+    5  python3
+    6  sudo apt-get install ffmpeg
+    7  sudo apt-get install libsndfile1
+    8  pip install spleeter
+    9  sudo apt install python3-pip
+   10  pip install spleeter
+   11  ls
+   12  ls -la
+   13  git clone https://github.com/Rajat619/songs-lib.git
+   14  spleeter separate -p spleeter:2stems -o output audio_example.mp3
+   15  cd songs-lib/
+   16  python3 -m spleeter -p spleeter:2stems -o output recordings-mp3/1.mp3
+   17  python3 -m spleeter separate -p spleeter:2stems -o output recordings-mp3/1.mp3
+   18  ffmpeg -i recordings-mp4/2022-11-13-09-53-Cam0-1668313402.mp4 -i output/1/vocals.wav -c:v copy -c:a aac final-outputs/1.mp4
+   19  mkdir final-outputs
+   20  ffmpeg -i recordings-mp4/2022-11-13-09-53-Cam0-1668313402.mp4 -i output/1/vocals.wav -c:v copy -c:a aac final-outputs/1.mp4
+   21  python3 -m spleeter separate -p spleeter:2stems -o output recordings-mp3/2.mp3
+   22  python3 -m spleeter separate -p spleeter:2stems -o output recordings-mp3/3.mp3
+   23  python3 -m spleeter separate -p spleeter:2stems -o output recordings-mp3/4.mp3
+   24  ffmpeg -i recordings-mp4/2022-11-13-09-54-Cam0-1668313462.mp4 -i output/2/vocals.wav -c:v copy -c:a aac final-outputs/2.mp4
+   25  ffmpeg -i recordings-mp4/2022-11-13-09-52-Cam0-1668313462.mp4 -i output/3/vocals.wav -c:v copy -c:a aac final-outputs/3.mp4
+   26  ffmpeg -i recordings-mp4/2022-11-13-09-52-Cam0-1668313343.mp4 -i output/3/vocals.wav -c:v copy -c:a aac final-outputs/3.mp4
+   27  ls
+   28  cd songs-lib/
+   29  ls
+   30  history
